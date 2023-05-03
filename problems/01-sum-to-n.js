@@ -14,6 +14,10 @@ sumToN(-8)  // returns null
 
 function sumToN(n) {
   
+  if(n < 0){
+    return null
+  }
+
   if (n === 0){
     return n
   }
